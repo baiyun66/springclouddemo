@@ -9,10 +9,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud_consumer_order80" />
         <module name="cloud_pay_8001" />
-        <module name="cloud_common_api" />
         <module name="cloud_pay_8002" />
+        <module name="cloudalibaba-Nacos-config-client-3377" />
+        <module name="cloudalibaba-pay-9001" />
+        <module name="cloudalibaba-order-83" />
+        <module name="cloudalibaba-pay-9003" />
+        <module name="cloudalibaba-pay-9002" />
+        <module name="cloud_common_api" />
         <module name="cloud_order_feign80" />
         <module name="cloud_eureka_server7002" />
+        <module name="cloudalibaba-sentinel-service8401" />
         <module name="cloud_eureka_server7001" />
       </profile>
     </annotationProcessing>

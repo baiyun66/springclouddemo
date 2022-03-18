@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -15,6 +16,7 @@ import java.io.Serializable;
  */
 @TableName(value ="payment")
 @Data
+@AllArgsConstructor
 public class Payment implements Serializable {
     /**
      * 主键
@@ -29,6 +31,7 @@ public class Payment implements Serializable {
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
+
 
     @Override
     public boolean equals(Object that) {

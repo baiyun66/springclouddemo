@@ -12,11 +12,17 @@
     <module>cloud_consumer_order80</module>
     <module>cloud_common_api</module>
     <module>cloud_eureka_server7001</module>
-    <module>cloud_eurekal_server7002</module>
+<!--    <module>cloud_eurekal_server7002</module>-->
     <module>cloud_eureka_server7002</module>
     <module>cloud_pay_8002</module>
       <module>cloud_order_feign80</module>
     <module>cloud_order_feign80</module>
+      <module>cloudalibaba-pay-9001</module>
+    <module>cloudalibaba-pay-9002</module>
+    <module>cloudalibaba-pay-9003</module>
+    <module>cloudalibaba-order-83</module>
+    <module>cloudalibaba-Nacos-config-client-3377</module>
+    <module>cloudalibaba-sentinel-service8401</module>
   </modules>
   <packaging>pom</packaging>
   <name>Maven</name>
